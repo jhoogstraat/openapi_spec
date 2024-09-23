@@ -11,13 +11,4 @@ void main() async {
       version: '1.0.0',
     ),
   );
-
-  // ==========================================
-  // Export to Swagger UI
-  // ==========================================
-
-  await spec.toSwaggerUI(
-    destination: './build/swagger_ui',
-    replace: true,
-  );
 }

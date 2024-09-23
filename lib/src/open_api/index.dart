@@ -11,7 +11,6 @@ import 'package:path/path.dart' as p;
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 import 'package:openapi_spec/src/utils/schema_centralizer.dart';
-import 'package:openapi_spec/src/generators/index.dart';
 
 part 'index.g.dart';
 part 'index.freezed.dart';
@@ -22,6 +21,7 @@ part 'components.dart';
 part 'contact.dart';
 part 'discriminator.dart';
 part 'encoding.dart';
+part 'enums.dart';
 part 'example.dart';
 part 'external_docs.dart';
 part 'format.dart';
@@ -44,6 +44,8 @@ part 'server_variable.dart';
 part 'spec.dart';
 part 'tag.dart';
 part 'xml.dart';
+
+
 
 // Ensures that users specify references with the same types
 bool _checkReferenceTypes(name, ref, self) {

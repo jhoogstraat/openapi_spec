@@ -1,9 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:openapi_spec/openapi_spec.dart';
-import 'package:openapi_spec/src/generators/index.dart';
 import 'package:openapi_spec/src/open_api/index.dart';
 import 'package:path/path.dart' as p;
 import 'package:recase/recase.dart';
+
 
 /// Centralizes the schemas in the OpenAPI spec.
 /// This will move all complex schemas to the components section and replace them with references.
